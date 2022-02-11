@@ -8,7 +8,7 @@ button.pack(pady = 200, padx = 200)
 # schijf hier tussen je code
 getal = 0
 def functie():
-    global button,getal
+    global getal
     if getal == 0:
         print('test1')
         window.config(bg='red')
